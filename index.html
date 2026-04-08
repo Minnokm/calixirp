@@ -11,9 +11,15 @@
             margin: 0; /* 10 биш 0 эсвэл px хэрэгтэй */
             background: rgb(223, 217, 217);
             color: black;
+             display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
 
         header {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
             background-color: rgb(55, 49, 49);
             color: white;
             padding: 15px;
@@ -78,6 +84,35 @@
         section.about {
     margin-top: 50px;
 }
+    .mm{
+            display: flex;
+            justify-content : center;
+            padding: 40px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+            border-radius: 10px;
+            background-color: rgb(185, 183, 183);
+
+    }
+
+    p{
+        width: 100%;
+    }
+    
+    section.mm{
+         margin-top: 50px;
+    }
+    .footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin-top: 20px;
+    font-size: 14px;
+    box-shadow: 0 -5px 10px rgba(0,0,0,0.1);
+    margin-top: 50px;
+}
+
+
     </style>
 </head>
 <body>
@@ -107,6 +142,30 @@
     <img src="mmm.jpg" style="height: 400px;">
         </div>
     </section>
+
+    <section class="mm">
+        <div class="p">
+            <p>
+                Каликс Олон улсын РП нь 2021 оны 9 сараас эхлэн үйл ажиллагаагаа явуулсаар ирсэн
+                бөгөөд хатуу чанга дүрмийн дагуу олон олон гэр бүлийн гишүүд буюу нил цэцэгстэй 
+                болсоор ирсэн билээ. 
+
+                Энэ сайт нь олон жилийн дурсамжуудаас үлдсэн цөөхөн хэдэн дурсамжуудаа эргэн санах
+                зорилготой хийгдсэн болно
+
+                <br>
+                <br>
+                -Каликс зүрхэнд үүрд
+
+            </p>
+        </div>
+
+        <img src="mm-removebg-preview.png" height="60px">
+    </section>
+
+    <footer class="footer">
+        <p> 2026 он</p>
+    </footer>
 
    
     
